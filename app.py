@@ -912,7 +912,7 @@ def main():
     """, unsafe_allow_html=True)
 
     # ── Header ───────────────────────────────────────────────────────────────
-    st.markdown('<div class="main-title">🌀 MFSU Vault v3</div>',
+    st.markdown('<div class="main-title">🌀 AxisWebLite</div>',
                 unsafe_allow_html=True)
     st.markdown('<div class="sub">MODELO FRACTAL-ESTOCÁSTICO UNIFICADO · ARQUITECTURA CORRECTA</div>',
                 unsafe_allow_html=True)
