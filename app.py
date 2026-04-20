@@ -1,6 +1,6 @@
 """
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║                    MFSU VAULT  v3.0 — ARQUITECTURA CORRECTA                ║
+║                    AXISWEBLITE— ARQUITECTURA CORRECTA                ║
 ║         Criptografía basada en el Modelo Fractal-Estocástico Unificado      ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║  Ecuación MFSU:                                                              ║
