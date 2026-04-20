@@ -854,7 +854,7 @@ def run_security_tests(password: str) -> tuple[list, plt.Figure]:
 
 def main():
     st.set_page_config(
-        page_title="MFSU Vault v3",
+        page_title="AXISWEBLITE",
         page_icon="🌀",
         layout="wide",
         initial_sidebar_state="expanded",
