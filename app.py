@@ -914,7 +914,7 @@ def main():
     # ── Header ───────────────────────────────────────────────────────────────
     st.markdown('<div class="main-title">🌀 Axis</div>',
                 unsafe_allow_html=True)
-    st.markdown('<div class="sub">MODELO FRACTAL-ESTOCÁSTICO UNIFICADO · ARQUITECTURA CORRECTA</div>',
+    st.markdown('<div class="sub"> Una arquitectura original que combina dinámica fractal-estocástica con criptografía moderna (SHA3-256, HMAC, KDF)."    </div>',
                 unsafe_allow_html=True)
     st.markdown("""
     <div class="eq-box">
