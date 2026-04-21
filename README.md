@@ -51,4 +51,4 @@ streamlit run app.py
 
 ## Licencia
 
-MIT License — © 2026 Miguel Ángel Franco León / Fracta-Fractalyx Project
+Apache-2.0 License — © 2026 Miguel Ángel Franco León / Fracta-Fractalyx Project
