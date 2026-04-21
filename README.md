@@ -49,6 +49,13 @@ streamlit run app.py
 
 [MFSU-Crypt: A Novel Symmetric Cryptographic System Based on the Unified Fractal-Stochastic Model](./MFSU_Crypt_Paper_v1.docx)
 
+
+### 💠 Wikidata & Standards
+Este proyecto y el formato `.fyx` están registrados en **Wikidata** como un estándar de código abierto para la representación y cifrado de datos mediante algoritmos fractales.
+- **Formato:** .fyx (Fractal Exchange Format)
+- **Seguridad:** Cifrado basado en complejidad recursiva y mapeo de coordenadas.
+
+
 ## Licencia
 
 Apache-2.0 License — © 2026 Miguel Ángel Franco León / Fracta-Fractalyx Project
