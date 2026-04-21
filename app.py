@@ -912,7 +912,7 @@ def main():
     """, unsafe_allow_html=True)
 
     # ── Header ───────────────────────────────────────────────────────────────
-    st.markdown('<div class="main-title">🌀 Axis</div>',
+    st.markdown('<div class="main-title">🌀 Fractalyx</div>',
                 unsafe_allow_html=True)
     st.markdown('<div class="sub"> Una arquitectura original que combina dinámica fractal-estocástica con criptografía moderna (SHA3-256, HMAC, KDF)."    </div>',
                 unsafe_allow_html=True)
