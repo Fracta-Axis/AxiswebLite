@@ -1,6 +1,6 @@
 """
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║                    AXISWEBLITE— ARQUITECTURA CORRECTA                ║
+║                    FRACTALYXWEBLITE— ARQUITECTURA CORRECTA                ║
 ║         Criptografía basada en el Modelo Fractal-Estocástico Unificado      ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║  Ecuación MFSU:                                                              ║
@@ -854,7 +854,7 @@ def run_security_tests(password: str) -> tuple[list, plt.Figure]:
 
 def main():
     st.set_page_config(
-        page_title="AXISWEBLITE",
+        page_title="FRACTALYXWEBLITE",
         page_icon="🌀",
         layout="wide",
         initial_sidebar_state="expanded",
