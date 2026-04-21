@@ -1,4 +1,4 @@
-# 🌀 Axisweblite
+# 🌀 Fractalyxweblite
 
 **Criptografía basada en el Modelo Fractal-Estocástico Unificado**
 
@@ -51,4 +51,4 @@ streamlit run app.py
 
 ## Licencia
 
-MIT License — © 2026 Miguel Ángel Franco León / Fracta-Axis Project
+MIT License — © 2026 Miguel Ángel Franco León / Fracta-Fractalyx Project
