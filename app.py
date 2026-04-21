@@ -1075,7 +1075,7 @@ def main():
                             t0 = time.time()
                             if use_shield:
                                 blob = fractalshield_encrypt(data, p_enc, level=level_selected)
-                                ext  = ".shield"
+                                ext  = ".fyx"
                             else:
                                 blob = encrypt_bytes(data, p_enc)
                                 ext  = ".fracta"
@@ -1100,7 +1100,7 @@ def main():
 
         with c2:
             st.markdown("#### 🔓 Descifrar")
-            f_dec = st.file_uploader("Archivo cifrado (.fracta o .shield)", key="dec")
+            f_dec = st.file_uploader("Archivo cifrado (.fracta o .fyx)", key="dec")
             p_dec = st.text_input("Contraseña", type="password", key="pd")
 
             if st.button("Descifrar", use_container_width=True):
@@ -1121,7 +1121,7 @@ def main():
                             elapsed = time.time() - t0
 
                             st.success(f"✅ Descifrado en {elapsed:.2f}s — {len(pt):,} B — {modo_dec}")
-                            orig_name = f_dec.name.replace(".shield", "").replace(".fracta", "")
+                            orig_name = f_dec.name.replace(".fyx", "").replace(".fracta", "")
                             st.download_button(
                                 "⬇️ Descargar archivo original",
                                 data=pt,
@@ -1403,7 +1403,7 @@ def main():
                 # FractalShield v4
                 info = fractalshield_inspect(blob_i)
                 if info["valid"]:
-                    st.success(f"✅ Archivo .shield v4 — {info['shield_name']}")
+                    st.success(f"✅ Archivo .fyx v4 — {info['shield_name']}")
                     ia, ib = st.columns(2)
                     with ia:
                         st.markdown("**FractalShield:**")
