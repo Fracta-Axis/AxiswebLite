@@ -73,26 +73,29 @@ flowchart TD
     C -.-> G & H & I
 ```
 
-2. FractalShield Layered Defensemermaid
-
+### 2. FractalShield Layered Defense
+ 
+```mermaid
 flowchart TD
     P[Password] --> KDF[KDF_M = 256]
-    KDF --> Real[Real Layer\nMFSU\x04 + Plaintext]
+    KDF --> Real[Real Layer\nMFSUv4 + Plaintext]
     KDF --> D1[Decoy Layer 1\nKDF_M = 512]
     KDF --> D2[Decoy Layer 2\nKDF_M = 1024]
     KDF --> Dn[Decoy Layer N\nKDF_M = 4096]
-    
-    subgraph Layers [All layers identical size & statistics]
+ 
+    subgraph Layers [All layers identical size and statistics]
         Real
         D1
         D2
         Dn
     end
-    
+ 
     Layers --> Shuffle[Fractal Shuffle\nORDER_ENC encrypted with real key]
-    Shuffle --> File[.fracta v4 File\n+ Global HMAC-SHA3-256]
-    
+    Shuffle --> File[.fyx v4 File\n+ Global HMAC-SHA3-256]
+ 
     style Real fill:#00b8ff,stroke:#fff
+```
+ 
 
 Key FeaturesMemory-hard KDF with 8 MB fractal scratchpad (scalable)
 Oracle-free verification via FractalShield
