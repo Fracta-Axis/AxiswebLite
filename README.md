@@ -54,7 +54,10 @@ streamlit run app.py
 
 ## Architecture
 
+## Architecture
+ 
 ### 1. Core MFSU Solver
+ 
 ```mermaid
 flowchart TD
     A[Password + Salt] --> B[SHA3-512 → Initial ψ]
@@ -68,6 +71,7 @@ flowchart TD
         I[Non-linear term + Normalization]
     end
     C -.-> G & H & I
+```
 
 2. FractalShield Layered Defensemermaid
 
